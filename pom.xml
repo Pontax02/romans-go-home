@@ -50,6 +50,12 @@
       <artifactId>assertj-core</artifactId>
       <version>[${assertj.version},)</version>
     </dependency>
+    <dependency>
+      <groupId>org.junit.jupiter</groupId>
+      <artifactId>junit-jupiter</artifactId>
+      <version>RELEASE</version>
+      <scope>test</scope>
+    </dependency>
   </dependencies>
 
   <build>
@@ -86,7 +92,7 @@
           <archive>
             <manifest>
               <addClasspath>true</addClasspath>
-              <mainClass>org.foobarspam.kataromannumerals.RomansGoHome</mainClass>
+              <mainClass>edu.estatuas.romans.Main</mainClass>
             </manifest>
             <manifestEntries>
               <url>${project.url}</url>
