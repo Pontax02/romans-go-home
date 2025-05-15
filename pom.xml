@@ -42,7 +42,7 @@
     <dependency>
       <groupId>org.junit.jupiter</groupId>
       <artifactId>junit-jupiter-params</artifactId>
-      <version>${params.version}</version>
+      <version>${params.version}</version> <!-- or latest version -->
       <scope>test</scope>
     </dependency>
     <dependency>
