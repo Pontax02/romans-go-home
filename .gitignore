@@ -48,3 +48,5 @@ logs/
 .settings/
 .project
 .classpath
+/.mvn/jvm.config
+/.mvn/maven.config
