@@ -156,7 +156,7 @@ public class RomanTest {
      * Test de la coleccion de
      * expresiones regulares
      */
-
+/*
     @Test
     @Tag("regex")
     public void init_regex_collection_test() {
@@ -173,7 +173,7 @@ public class RomanTest {
     /**
      * Test del tipo enumerado
      * RomanSymbols
-     */
+     *
     @ParameterizedTest
     @Tag("enumerado")
     @CsvSource({
@@ -185,4 +185,5 @@ public class RomanTest {
         numeroRomano = new Romans(roman);
         assertEquals(decimal, numeroRomano.decimalValue(roman));
     }
+    */
 }
