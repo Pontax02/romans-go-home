@@ -19,15 +19,18 @@ public class Romans {
 
 
     public short toDecimal() {
-        if(matcher.find()) {
-            for (char symbol : this.romanNumber.toCharArray()) {
 
+            for (char symbol : this.romanNumber.toCharArray()) {
+                if(matcher.find()) {
+
+
+                }
 
             }
 
 
-            return 0;
-        }
+        return 0;
+
     }
 
 }
